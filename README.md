@@ -1,6 +1,6 @@
 # 🎧 Moodify: Know The Vibe (Lyrics to Emotion Predictor)
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](YOUR_STREAMLIT_APP_URL)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://moodify-knowthevibe.streamlit.app/)
 [![GitHub license](https://img.shields.io/github/license/ArniGoyal/Moodify)](./LICENSE)
 
 A web application built with Streamlit and scikit-learn that classifies the dominant emotion (e.g., joy, sadness, anger) from song lyrics and suggests related songs from a database with the same predicted 'vibe'.
