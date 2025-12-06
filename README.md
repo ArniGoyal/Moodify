@@ -14,24 +14,6 @@ A web application built with Streamlit and scikit-learn that classifies the domi
 * **Data Preprocessing:** Includes custom preprocessing (stemming, stop-word removal, and cleaning) via `nltk`.
 * **Song Recommendation:** Filters the `songs_db.csv` by the predicted emotion and then ranks the matching songs based on **Cosine Similarity** of their TF-IDF vectors to the user's input lyrics.
 
-## 🛠️ Installation and Setup
-
-To run Moodify locally, follow these steps:
-
-1.  **Clone the repository:**
-    ```bash
-    git clone [https://github.com/ArniGoyal/Moodify.git](https://github.com/ArniGoyal/Moodify.git)
-    cd Moodify
-    ```
-2.  **Install dependencies:**
-    ```bash
-    pip install -r requirements.txt
-    ```
-3.  **Run the Streamlit app:**
-    ```bash
-    streamlit run app.py
-    ```
-
 ## 📂 Data and Model
 
 * **Model File:** The trained model (`tfidf_logreg_song_mood.pkl`) contains the TF-IDF vectorizer, the Logistic Regression classifier, and the label encoder.
